@@ -1,0 +1,25 @@
+* {
+    font-family: sans-serif;
+    overflow-y: auto; 
+}
+
+header {
+    height: 60px;
+    
+}
+
+.barra-navegacao {
+    background-color: bisque;
+}
+
+main {
+    height: calc(100vh - 100px);
+    background-color: bisque;
+    
+}
+
+footer {
+    height: 25px;
+    text-align: center;
+    background-color: bisque;
+}

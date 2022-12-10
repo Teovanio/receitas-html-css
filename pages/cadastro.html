@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Arquivo de Receitas</title>
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../clear.css" />
+    <link rel="stylesheet" href="../css/formatos.css" />
+    <link rel="stylesheet" href="../css/cadastro.css" />
+</head>
+
+<body style="background-color: bisque;">
+    <header class="pos-f-t ">
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+     
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="receitas.html">Receitas</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="cadastro.html">Cadastro</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="align-items-center receitas container-fluid  ">
+        <h1>Efetue seu cadastro</h1>
+       <form class="formularioCadastro">
+            <div class="row">
+                <div class="col-2">Nome</div>
+                <div class="col-7"><input type="text" class="form-control" id="nome" placeholder="Seu nome"
+                        required> </div>
+                <div class="col-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-2">E-mail</div>
+                <div class="col-7"><input type="email" class="form-control" id="e-mail" placeholder="e-mail"
+                        required> </div>
+                <div class="col-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-2">Cep</div>
+                <div class="col-7">
+                    <input type="number" class="form-control estiloCEP" id="cep" placeholder="Cep" required>
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-2">Rua</div>
+                <div class="col-7"><input type="text" class="form-control" id="rua" placeholder="Rua" required>
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-2">Número</div>
+                <div class="col-7 row" >
+ 
+                    <div class="col-3 p-0" >
+                        <input style="flex-basis: 25%;" type="number" class="form-control" id="numero" placeholder="Número"
+                        required>
+                    </div>
+                    <div class="col-4 p-2" style="padding: none;">
+                        <div style="flex-basis: 25%;">Complemento</div>
+                    </div>
+                    <div class="col-5 p-0" style="padding: none;">
+                        <input style="flex-basis: 30%;" type="text" class="form-control" id="complemento"
+                        placeholder="Complemento" required>
+                    </div>
+                </div>
+                <div class="col-3"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-2">Cidade</div>
+                <div class="col-7"><input type="text" class="form-control" id="cidade" placeholder="Cidade"
+                        required> </div>
+                <div class="col-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-2">UF</div>
+                <div class="col-7"><input type="text" class="form-control" id="unidade-federacao"
+                        placeholder="UF" required> </div>
+                <div class="col-3">
+                    <input type="submit" class="btn btn-dark" value="Cadastrar"></input>
+                </div>
+            </div>
+            
+        </form>
+    </main>
+    <footer>
+        <span>Teovanio</span> &copy; 2022
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</html>

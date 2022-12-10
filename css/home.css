@@ -1,0 +1,21 @@
+
+.logoimg {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.logo-titulo {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 9px 0px;
+    
+}
+
+.home {
+    flex-direction: column;
+}
+
+.boas-vindas {
+    display: inline;
+}
